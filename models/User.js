@@ -18,10 +18,10 @@ const userSchema = mongoose.Schema({
     type: String,
   },
   tokenExp: {
-    type: Nubmer,
+    type: Number,
   },
 });
 
 const User = mongoose.model('User', userSchema);
 
-model.exports = { User };
+module.exports = { User };
